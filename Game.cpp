@@ -21,14 +21,23 @@ void Game::startGame() {
     << " " << player1.getHand2().getValue()<< " total: " << player1.handTotal() << " player 1 hand \n";
      std::cout << player2.getHand1().getSuit() << " " << player2.getHand1().getValue() << " " << player2.getHand2().getSuit() 
     << " " << player2.getHand2().getValue()<< " total: " << player2.handTotal() << " player 2 hand \n";
-    std::cout << "Winner: player " << Game::whoseWinning();
+    int winner = Game::whoseWinning();
+    if(winner == 0){
+        std::cout << "Tie";
+    }
+    else{
+        std::cout << "Winner: player " << winner;
+    }
 }
 
 int Game::whoseWinning(){
-    if (player1.handTotal() >= player2.handTotal()) {
+    if (player1.handTotal() == player2.handTotal()) {
+        return 0;
+    }
+    else if(player1.handTotal() > player2.handTotal()){
         return 1;
     }
-    else {
+    else{
         return 2;
     }
 }

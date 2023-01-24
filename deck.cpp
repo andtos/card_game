@@ -1,4 +1,5 @@
 #include "Deck.hpp"
+#include <random>
 
 
 Deck::Deck(){
@@ -37,6 +38,16 @@ Card Deck::draw(){
 
 void Deck::shuffle(){
     
+    std::srand (time(NULL));
+ 
+    
+    for (int i = 51; i > 0; i--){
+        int j = rand() % (i + 1);
+        Card temp = arr[i];
+        arr[i] = arr[j];
+        arr[j]= temp;
+
+    }
 }
     
 
