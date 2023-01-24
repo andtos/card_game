@@ -1,5 +1,5 @@
 #pragma once
-#include "card.hpp"
+#include "Card.hpp"
 
 
 class deck
