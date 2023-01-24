@@ -1,7 +1,7 @@
 #include "Deck.hpp"
 
-deck deck::initNewDeck(){
-        deck deck;
+Deck Deck::initNewDeck(){
+        Deck deck;
         for(int x = 0; x < 13; x++){
             card a(x, "club");
             deck.arr[x] = a;
@@ -17,12 +17,12 @@ deck deck::initNewDeck(){
 }
 
 
-card deck::draw(){
+Card Deck::draw(){
     return arr[0];
 }
 
 
-void deck::shuffle(){
+void Deck::shuffle(){
     
 }
     

@@ -2,14 +2,14 @@
 #include "Card.hpp"
 
 
-class deck
+class Deck
 {
 public:
-  deck::deck();
-  deck initNewDeck();
+  Deck::Deck();
+  Deck initNewDeck();
   void shuffle();
-  card draw();
+  Card draw();
   
 private:
-    card arr[52]; 
+    Card arr[52]; 
 };
