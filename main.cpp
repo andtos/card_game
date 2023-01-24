@@ -1,6 +1,10 @@
+
 #include <iostream>
 #include "Game.hpp"
-#include "Window.hpp"
+#include "Player.hpp"
+#include "Deck.hpp"
+#include "Card.hpp"
+//#include "Window.hpp"
 
 int WIDTH, HEIGHT;
 

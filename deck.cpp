@@ -1,15 +1,20 @@
 #include "Deck.hpp"
 
+
+Deck::Deck(){
+    Card arr[52];
+}
+
 Deck Deck::initNewDeck(){
         Deck deck;
         for(int x = 0; x < 13; x++){
-            card a(x, "club");
+            Card a(x+1, "club");
             deck.arr[x] = a;
-            card b(x, "diamond");
+            Card b(x+1, "diamond");
             deck.arr[x+13] = b;
-            card c(x, "hearts");
+            Card c(x+1, "hearts");
             deck.arr[x+26] = c;
-            card d(x, "spade");
+            Card d(x+1, "spade");
             deck.arr[x+39] = d;
             
         }
@@ -18,7 +23,15 @@ Deck Deck::initNewDeck(){
 
 
 Card Deck::draw(){
-    return arr[0];
+    Card c;
+    for(int x = 0; x < 52; x++){
+        if(arr[x].isNull() == 0){
+            c = arr[x];
+            arr[x].remove();
+            return c;
+        }
+    }
+    return c;
 }
 
 

@@ -5,7 +5,7 @@
 class Deck
 {
 public:
-  Deck::Deck();
+  Deck();
   Deck initNewDeck();
   void shuffle();
   Card draw();
