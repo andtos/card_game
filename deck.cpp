@@ -1,4 +1,4 @@
-#include "deck.hpp"
+#include "Deck.hpp"
 
 deck deck::initNewDeck(){
         deck deck;
