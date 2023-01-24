@@ -1260,16 +1260,16 @@ GL_APICALL void GL_APIENTRY glPopGroupMarkerEXT (void);
 #define GL_DEPTH_CLAMP_EXT                0x864F
 #endif /* GL_EXT_depth_clamp */
 
-#ifndef GL_EXT_discard_framebuffer
-#define GL_EXT_discard_framebuffer 1
+#ifndef GL_EXT_disCard_framebuffer
+#define GL_EXT_disCard_framebuffer 1
 #define GL_COLOR_EXT                      0x1800
 #define GL_DEPTH_EXT                      0x1801
 #define GL_STENCIL_EXT                    0x1802
-typedef void (GL_APIENTRYP PFNGLDISCARDFRAMEBUFFEREXTPROC) (GLenum target, GLsizei numAttachments, const GLenum *attachments);
+typedef void (GL_APIENTRYP PFNGLDISCardFRAMEBUFFEREXTPROC) (GLenum target, GLsizei numAttachments, const GLenum *attachments);
 #ifdef GL_GLEXT_PROTOTYPES
-GL_APICALL void GL_APIENTRY glDiscardFramebufferEXT (GLenum target, GLsizei numAttachments, const GLenum *attachments);
+GL_APICALL void GL_APIENTRY glDisCardFramebufferEXT (GLenum target, GLsizei numAttachments, const GLenum *attachments);
 #endif
-#endif /* GL_EXT_discard_framebuffer */
+#endif /* GL_EXT_disCard_framebuffer */
 
 #ifndef GL_EXT_disjoint_timer_query
 #define GL_EXT_disjoint_timer_query 1
@@ -1948,7 +1948,7 @@ GL_APICALL void GL_APIENTRY glProgramUniformMatrix4x3fvEXT (GLuint program, GLin
 
 #ifndef GL_EXT_shader_framebuffer_fetch
 #define GL_EXT_shader_framebuffer_fetch 1
-#define GL_FRAGMENT_SHADER_DISCARDS_SAMPLES_EXT 0x8A52
+#define GL_FRAGMENT_SHADER_DISCardS_SAMPLES_EXT 0x8A52
 #endif /* GL_EXT_shader_framebuffer_fetch */
 
 #ifndef GL_EXT_shader_framebuffer_fetch_non_coherent

@@ -571,7 +571,7 @@ extern DECLSPEC void * SDLCALL SDL_SIMDRealloc(void *mem, const size_t len);
  * The memory pointed to by `ptr` is no longer valid for access upon return,
  * and may be returned to the system or reused by a future allocation. The
  * pointer passed to this function is no longer safe to dereference once this
- * function returns, and should be discarded.
+ * function returns, and should be disCarded.
  *
  * \param ptr The pointer, returned from SDL_SIMDAlloc or SDL_SIMDRealloc, to
  *            deallocate. NULL is a legal no-op.

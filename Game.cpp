@@ -14,8 +14,14 @@ int Game::evaluateTotal(int hand[]) {
     return sum
 }
 
-bool Game::isWinning(Player player){
+int Game::isWinning(Player player){
     if (player.total > 21) {
-        return 
+        return 0
+    }
+    else if (player.total == 21) {
+        return 1
+    }
+    else{
+        return 2
     }
 }

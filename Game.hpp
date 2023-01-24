@@ -6,7 +6,7 @@ class Game
 public:
   Game(Player player1, Player player2);   
   int evaluateTotal(int hand[]);
-  bool isWinning();
+  int isWinning(Player player);
 private:
     int score;
     Player player1;

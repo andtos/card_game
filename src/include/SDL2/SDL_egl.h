@@ -1465,10 +1465,10 @@ EGLAPI EGLBoolean EGLAPIENTRY eglGetMscRateANGLE (EGLDisplay dpy, EGLSurface sur
 #define EGL_SYNC_PRIOR_COMMANDS_IMPLICIT_EXTERNAL_ARM 0x328A
 #endif /* EGL_ARM_implicit_external_sync */
 
-#ifndef EGL_ARM_pixmap_multisample_discard
-#define EGL_ARM_pixmap_multisample_discard 1
-#define EGL_DISCARD_SAMPLES_ARM           0x3286
-#endif /* EGL_ARM_pixmap_multisample_discard */
+#ifndef EGL_ARM_pixmap_multisample_disCard
+#define EGL_ARM_pixmap_multisample_disCard 1
+#define EGL_DISCard_SAMPLES_ARM           0x3286
+#endif /* EGL_ARM_pixmap_multisample_disCard */
 
 #ifndef EGL_EXT_bind_to_front
 #define EGL_EXT_bind_to_front 1

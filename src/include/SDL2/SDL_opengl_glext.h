@@ -1220,7 +1220,7 @@ typedef khronos_uint16_t GLhalf;
 #define GL_TRANSFORM_FEEDBACK_BUFFER_SIZE 0x8C85
 #define GL_PRIMITIVES_GENERATED           0x8C87
 #define GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN 0x8C88
-#define GL_RASTERIZER_DISCARD             0x8C89
+#define GL_RASTERIZER_DISCard             0x8C89
 #define GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS 0x8C8A
 #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS 0x8C8B
 #define GL_INTERLEAVED_ATTRIBS            0x8C8C
@@ -6609,7 +6609,7 @@ GLAPI void APIENTRY glStencilFuncSeparateATI (GLenum frontfunc, GLenum backfunc,
 #define GL_STATIC_ATI                     0x8760
 #define GL_DYNAMIC_ATI                    0x8761
 #define GL_PRESERVE_ATI                   0x8762
-#define GL_DISCARD_ATI                    0x8763
+#define GL_DISCard_ATI                    0x8763
 #define GL_OBJECT_BUFFER_SIZE_ATI         0x8764
 #define GL_OBJECT_BUFFER_USAGE_ATI        0x8765
 #define GL_ARRAY_OBJECT_BUFFER_ATI        0x8766
@@ -8441,7 +8441,7 @@ GLAPI GLuint APIENTRY glCreateShaderProgramEXT (GLenum type, const GLchar *strin
 
 #ifndef GL_EXT_shader_framebuffer_fetch
 #define GL_EXT_shader_framebuffer_fetch 1
-#define GL_FRAGMENT_SHADER_DISCARDS_SAMPLES_EXT 0x8A52
+#define GL_FRAGMENT_SHADER_DISCardS_SAMPLES_EXT 0x8A52
 #endif /* GL_EXT_shader_framebuffer_fetch */
 
 #ifndef GL_EXT_shader_framebuffer_fetch_non_coherent
@@ -9000,7 +9000,7 @@ GLAPI void APIENTRY glGetQueryObjectui64vEXT (GLuint id, GLenum pname, GLuint64 
 #define GL_SEPARATE_ATTRIBS_EXT           0x8C8D
 #define GL_PRIMITIVES_GENERATED_EXT       0x8C87
 #define GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_EXT 0x8C88
-#define GL_RASTERIZER_DISCARD_EXT         0x8C89
+#define GL_RASTERIZER_DISCard_EXT         0x8C89
 #define GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_EXT 0x8C8A
 #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_EXT 0x8C8B
 #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_EXT 0x8C80
@@ -11222,7 +11222,7 @@ GLAPI void APIENTRY glQueryResourceTagNV (GLint tagId, const GLchar *tagString);
 #define GL_CONSTANT_COLOR1_NV             0x852B
 #define GL_SPARE0_NV                      0x852E
 #define GL_SPARE1_NV                      0x852F
-#define GL_DISCARD_NV                     0x8530
+#define GL_DISCard_NV                     0x8530
 #define GL_E_TIMES_F_NV                   0x8531
 #define GL_SPARE0_PLUS_SECONDARY_COLOR_NV 0x8532
 #define GL_UNSIGNED_IDENTITY_NV           0x8536
@@ -11695,7 +11695,7 @@ GLAPI void APIENTRY glGetSemaphoreParameterivNV (GLuint semaphore, GLenum pname,
 #define GL_TRANSFORM_FEEDBACK_RECORD_NV   0x8C86
 #define GL_PRIMITIVES_GENERATED_NV        0x8C87
 #define GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV 0x8C88
-#define GL_RASTERIZER_DISCARD_NV          0x8C89
+#define GL_RASTERIZER_DISCard_NV          0x8C89
 #define GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV 0x8C8A
 #define GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV 0x8C8B
 #define GL_INTERLEAVED_ATTRIBS_NV         0x8C8C
@@ -11773,7 +11773,7 @@ typedef GLintptr GLvdpauSurfaceNV;
 #define GL_SURFACE_STATE_NV               0x86EB
 #define GL_SURFACE_REGISTERED_NV          0x86FD
 #define GL_SURFACE_MAPPED_NV              0x8700
-#define GL_WRITE_DISCARD_NV               0x88BE
+#define GL_WRITE_DISCard_NV               0x88BE
 typedef void (APIENTRYP PFNGLVDPAUINITNVPROC) (const void *vdpDevice, const void *getProcAddress);
 typedef void (APIENTRYP PFNGLVDPAUFININVPROC) (void);
 typedef GLvdpauSurfaceNV (APIENTRYP PFNGLVDPAUREGISTERVIDEOSURFACENVPROC) (const void *vdpSurface, GLenum target, GLsizei numTextureNames, const GLuint *textureNames);

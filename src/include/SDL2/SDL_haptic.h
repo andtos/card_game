@@ -374,7 +374,7 @@ typedef struct _SDL_Haptic SDL_Haptic;
  *  Cardinal directions of the haptic device are relative to the positioning
  *  of the device.  North is considered to be away from the user.
  *
- *  The following diagram represents the cardinal directions:
+ *  The following diagram represents the Cardinal directions:
  *  \verbatim
                  .--.
                  |__| .-------.
@@ -404,7 +404,7 @@ typedef struct _SDL_Haptic SDL_Haptic;
  *
  *  If type is ::SDL_HAPTIC_POLAR, direction is encoded by hundredths of a
  *  degree starting north and turning clockwise.  ::SDL_HAPTIC_POLAR only uses
- *  the first \c dir parameter.  The cardinal directions would be:
+ *  the first \c dir parameter.  The Cardinal directions would be:
  *   - North: 0 (0 degrees)
  *   - East: 9000 (90 degrees)
  *   - South: 18000 (180 degrees)
@@ -412,7 +412,7 @@ typedef struct _SDL_Haptic SDL_Haptic;
  *
  *  If type is ::SDL_HAPTIC_CARTESIAN, direction is encoded by three positions
  *  (X axis, Y axis and Z axis (with 3 axes)).  ::SDL_HAPTIC_CARTESIAN uses
- *  the first three \c dir parameters.  The cardinal directions would be:
+ *  the first three \c dir parameters.  The Cardinal directions would be:
  *   - North:  0,-1, 0
  *   - East:   1, 0, 0
  *   - South:  0, 1, 0

@@ -1,18 +1,18 @@
 #include <string>
-#include "card.hpp"
+#include "Card.hpp"
 
-card::card(int x, std::string z){
+Card::Card(int x, std::string z){
         value = x;
         suit = z;
 }
 
 
-int card::getValue(){
+int Card::getValue(){
     return value;
 }
 
 
-std::string card::getSuit(){
+std::string Card::getSuit(){
     return suit;
 }
     

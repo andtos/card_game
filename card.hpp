@@ -1,10 +1,10 @@
 #pragma once
 #include <string>
 
-class card
+class Card
 {
 public:
-  card(int x, std::string z);   
+  Card(int x, std::string z);   
   int getValue();
   std::string getSuit();
 private:

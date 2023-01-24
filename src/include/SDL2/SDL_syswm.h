@@ -337,7 +337,7 @@ struct SDL_SysWMinfo
 #if defined(SDL_VIDEO_DRIVER_KMSDRM)
         struct
         {
-            int dev_index;               /**< Device index (ex: the X in /dev/dri/cardX) */
+            int dev_index;               /**< Device index (ex: the X in /dev/dri/CardX) */
             int drm_fd;                  /**< DRM FD (unavailable on Vulkan windows) */
             struct gbm_device *gbm_dev;  /**< GBM device (unavailable on Vulkan windows) */
         } kmsdrm;

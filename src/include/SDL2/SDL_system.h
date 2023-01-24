@@ -404,7 +404,7 @@ extern DECLSPEC int SDLCALL SDL_AndroidGetExternalStorageState(void);
  * to by other applications.
  *
  * Your external storage path is typically:
- * `/storage/sdcard0/Android/data/your.app.package/files`.
+ * `/storage/sdCard0/Android/data/your.app.package/files`.
  *
  * \returns the path used for external storage for this application on success
  *          or NULL on failure; call SDL_GetError() for more information.

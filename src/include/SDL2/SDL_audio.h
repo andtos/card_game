@@ -628,7 +628,7 @@ extern DECLSPEC int SDLCALL SDL_GetDefaultAudioInfo(char **name,
  * specific feature. If the application requests a feature that the hardware
  * doesn't offer, SDL will always try to get the closest equivalent.
  *
- * For example, if you ask for float32 audio format, but the sound card only
+ * For example, if you ask for float32 audio format, but the sound Card only
  * supports int16, SDL will set the hardware to int16. If you had set
  * SDL_AUDIO_ALLOW_FORMAT_CHANGE, SDL will change the format in the `obtained`
  * structure. If that flag was *not* set, SDL will prepare to convert your

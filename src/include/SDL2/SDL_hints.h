@@ -2354,7 +2354,7 @@ extern "C" {
 /**
  *  \brief  A variable that decides what KMSDRM device to use.
  *
- *  Internally, SDL might open something like "/dev/dri/cardNN" to
+ *  Internally, SDL might open something like "/dev/dri/CardNN" to
  *  access KMSDRM functionality, where "NN" is a device index number.
  *
  *  SDL makes a guess at the best index to use (usually zero), but the
