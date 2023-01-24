@@ -23,10 +23,11 @@ int main(int argc, char* argv[])
     //         }
     //     }
     // }
+    Deck deck;
     Player player1;
     Player player2;
 
-    Game Game(player1, player2);
+    Game Game(player1, player2, deck);
 
     Game.startGame();
 

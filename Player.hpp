@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+#include <vector>
 #include "Card.hpp"
 
 
@@ -9,9 +11,8 @@ public:
   Player();
   int handTotal();
   void drawCard(Card c);
-  Card getHand1();
-  Card getHand2();
+  void getHand();
   
 private:
-    Card arr[2]; 
+  std::vector <Card> hand;
 };
