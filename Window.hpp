@@ -1,10 +1,7 @@
 #pragma once
-#include <SDL.h>
-#include <SDL_ttf.h>
-#include <SDL_image.h>
+#include "src\include\SDL2\SDL.h"
 #include <iostream>
 #include "wtypes.h"
-#include "TextureManager.hpp"
 
 class Window {
 
