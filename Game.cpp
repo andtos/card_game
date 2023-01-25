@@ -65,6 +65,12 @@ int Game::whoseWinning(){
     if ((player1_total > 21 && player2_total > 21) || (player1_total == player2_total)) {
         return 0;
     }
+    else if (player1_total == 21) {
+        return 1;
+    }
+    else if (player2_total == 21) {
+        return 2;
+    }
     else if (player1_total > player2_total) {
         return 1;
     }
