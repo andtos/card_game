@@ -47,9 +47,7 @@ void Window::handleEvent(SDL_Event& event) {
         case SDL_KEYDOWN:
             switch (event.key.keysym.sym) {
                 case SDLK_ESCAPE:
-                    std::cout << "Escape" << std::endl;
-                    escape_box_active = true;
-                    //is_running = false;
+                    is_running = false;
                     break;
             }
         default:

@@ -27,7 +27,6 @@ public:
     int window_height;
     int window_center_x;
     int window_center_y;
-    bool escape_box_active = false;
     bool is_running;
 
 private:
